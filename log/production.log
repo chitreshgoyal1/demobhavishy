@@ -1,0 +1,1195 @@
+I, [2016-01-20T01:12:21.627193 #16990]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:12:21 +0530
+I, [2016-01-20T01:12:21.744293 #16990]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:12:21.784058 #16990] DEBUG -- :   [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:12:21.828581 #16990]  INFO -- :   Rendered frontend/_banner.html.erb (1.0ms)
+I, [2016-01-20T01:12:21.830728 #16990]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.6ms)
+I, [2016-01-20T01:12:21.832966 #16990]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (1.0ms)
+D, [2016-01-20T01:12:21.834462 #16990] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.8ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:12:21.841011 #16990] DEBUG -- :   [1m[36mAdmin::Event Load (1.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:12:21.847677 #16990] DEBUG -- :   [1m[35mAdmin::Event Load (0.9ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:12:21.849866 #16990] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.9ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:12:21.852379 #16990]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (32.7ms)
+I, [2016-01-20T01:12:21.867169 #16990]  INFO -- :   Rendered layouts/_header.html.erb (3.0ms)
+D, [2016-01-20T01:12:21.871655 #16990] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (1.1ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:12:21.876521 #16990]  INFO -- :   Rendered layouts/_footer.html.erb (8.1ms)
+I, [2016-01-20T01:12:21.878756 #16990]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.8ms)
+I, [2016-01-20T01:12:21.880263 #16990]  INFO -- : Completed 200 OK in 135ms (Views: 83.3ms | ActiveRecord: 15.6ms)
+I, [2016-01-20T01:12:21.911562 #16990]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2016-01-20 01:12:21 +0530
+I, [2016-01-20T01:12:21.924696 #16990]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2016-01-20 01:12:21 +0530
+I, [2016-01-20T01:12:21.928099 #16990]  INFO -- : Started GET "/assets/frontend/Drawing.png" for 127.0.0.1 at 2016-01-20 01:12:21 +0530
+I, [2016-01-20T01:12:21.947360 #16990]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:12:21 +0530
+I, [2016-01-20T01:12:21.952860 #16990]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:12:21.962811 #16990] DEBUG -- :   [1m[36m (5.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:12:21.965009 #16990]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:12:21.965587 #16990]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:12:21.966026 #16990]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:12:21.967551 #16990] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.7ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:12:21.970388 #16990] DEBUG -- :   [1m[36mAdmin::Event Load (1.0ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:12:21.973229 #16990] DEBUG -- :   [1m[35mAdmin::Event Load (1.0ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:12:21.975659 #16990] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.8ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:12:21.976331 #16990]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (11.7ms)
+I, [2016-01-20T01:12:21.979919 #16990]  INFO -- :   Rendered layouts/_header.html.erb (1.7ms)
+D, [2016-01-20T01:12:21.982543 #16990] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (1.1ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:12:21.985130 #16990]  INFO -- :   Rendered layouts/_footer.html.erb (4.5ms)
+I, [2016-01-20T01:12:21.985731 #16990]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:12:21.986377 #16990]  INFO -- : Completed 200 OK in 33ms (Views: 17.7ms | ActiveRecord: 10.5ms)
+I, [2016-01-20T01:12:21.997131 #16990]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:12:21 +0530
+I, [2016-01-20T01:12:21.999675 #16990]  INFO -- : Processing by FrontendController#index as */*
+D, [2016-01-20T01:12:22.004633 #16990] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:12:22.017622 #16990]  INFO -- :   Rendered frontend/_banner.html.erb (1.0ms)
+I, [2016-01-20T01:12:22.024672 #16990]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.9ms)
+I, [2016-01-20T01:12:22.032003 #16990]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (1.6ms)
+D, [2016-01-20T01:12:22.033832 #16990] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.8ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:12:22.035933 #16990] DEBUG -- :   [1m[36mAdmin::Event Load (0.8ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:12:22.037301 #16990] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:12:22.038671 #16990] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:12:22.039173 #16990]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (29.6ms)
+I, [2016-01-20T01:12:22.045171 #16990]  INFO -- :   Rendered layouts/_header.html.erb (2.2ms)
+D, [2016-01-20T01:12:22.055492 #16990] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (1.3ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:12:22.058061 #16990]  INFO -- :   Rendered layouts/_footer.html.erb (8.3ms)
+I, [2016-01-20T01:12:22.063011 #16990]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.8ms)
+I, [2016-01-20T01:12:22.063638 #16990]  INFO -- : Completed 200 OK in 63ms (Views: 54.3ms | ActiveRecord: 4.6ms)
+I, [2016-01-20T01:12:22.115551 #16990]  INFO -- : Started GET "/assets/frontend/1.jpg" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.133287 #16990]  INFO -- : Started GET "/assets/frontend/3.jpg" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.148432 #16990]  INFO -- : Started GET "/assets/frontend/4.jpg" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.151797 #16990]  INFO -- : Started GET "/assets/frontend/2.jpg" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.156478 #16990]  INFO -- : Started GET "/assets/frontend/5.jpg" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.159837 #16990]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.163802 #16990]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:12:22.171452 #16990] DEBUG -- :   [1m[36m (3.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:12:22.173949 #16990]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.174473 #16990]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.174922 #16990]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:12:22.202541 #16990] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (26.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:12:22.205893 #16990] DEBUG -- :   [1m[36mAdmin::Event Load (1.1ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:12:22.207973 #16990] DEBUG -- :   [1m[35mAdmin::Event Load (0.8ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:12:22.209863 #16990] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.6ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:12:22.210439 #16990]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (36.9ms)
+I, [2016-01-20T01:12:22.218024 #16990]  INFO -- :   Rendered layouts/_header.html.erb (1.4ms)
+D, [2016-01-20T01:12:22.221467 #16990] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (1.1ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:12:22.224261 #16990]  INFO -- :   Rendered layouts/_footer.html.erb (5.2ms)
+I, [2016-01-20T01:12:22.224987 #16990]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.225582 #16990]  INFO -- : Completed 200 OK in 61ms (Views: 22.7ms | ActiveRecord: 33.9ms)
+I, [2016-01-20T01:12:22.227336 #16990]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.229256 #16990]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:12:22.232358 #16990] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:12:22.233526 #16990]  INFO -- :   Rendered frontend/_banner.html.erb (0.0ms)
+I, [2016-01-20T01:12:22.233802 #16990]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.234066 #16990]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:12:22.234854 #16990] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.4ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:12:22.237828 #16990] DEBUG -- :   [1m[36mAdmin::Event Load (1.2ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:12:22.240042 #16990] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:12:22.241270 #16990] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:12:22.241721 #16990]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (8.4ms)
+I, [2016-01-20T01:12:22.243481 #16990]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T01:12:22.244710 #16990] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:12:22.245807 #16990]  INFO -- :   Rendered layouts/_footer.html.erb (2.1ms)
+I, [2016-01-20T01:12:22.246103 #16990]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.246455 #16990]  INFO -- : Completed 200 OK in 17ms (Views: 10.3ms | ActiveRecord: 3.8ms)
+I, [2016-01-20T01:12:22.248199 #16990]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.249843 #16990]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:12:22.252635 #16990] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:12:22.255312 #16990]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.255893 #16990]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.256499 #16990]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.2ms)
+D, [2016-01-20T01:12:22.258161 #16990] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:12:22.259606 #16990] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:12:22.260667 #16990] DEBUG -- :   [1m[35mAdmin::Event Load (0.4ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:12:22.262193 #16990] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.6ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:12:22.262665 #16990]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (8.0ms)
+I, [2016-01-20T01:12:22.264802 #16990]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+D, [2016-01-20T01:12:22.266822 #16990] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.8ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:12:22.268792 #16990]  INFO -- :   Rendered layouts/_footer.html.erb (3.5ms)
+I, [2016-01-20T01:12:22.269173 #16990]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.269655 #16990]  INFO -- : Completed 200 OK in 20ms (Views: 13.1ms | ActiveRecord: 3.4ms)
+I, [2016-01-20T01:12:22.275292 #16990]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.277054 #16990]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:12:22.281052 #16990] DEBUG -- :   [1m[36m (1.3ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:12:22.282685 #16990]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.282944 #16990]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.0ms)
+I, [2016-01-20T01:12:22.283164 #16990]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:12:22.284722 #16990] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.9ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:12:22.286927 #16990] DEBUG -- :   [1m[36mAdmin::Event Load (0.8ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:12:22.289202 #16990] DEBUG -- :   [1m[35mAdmin::Event Load (0.8ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:12:22.290964 #16990] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:12:22.291507 #16990]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (9.0ms)
+I, [2016-01-20T01:12:22.293907 #16990]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+D, [2016-01-20T01:12:22.296380 #16990] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (1.0ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:12:22.299250 #16990]  INFO -- :   Rendered layouts/_footer.html.erb (4.8ms)
+I, [2016-01-20T01:12:22.299870 #16990]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.300476 #16990]  INFO -- : Completed 200 OK in 23ms (Views: 14.5ms | ActiveRecord: 5.3ms)
+I, [2016-01-20T01:12:22.303220 #16990]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.305649 #16990]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:12:22.310299 #16990] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:12:22.312569 #16990]  INFO -- :   Rendered frontend/_banner.html.erb (0.2ms)
+I, [2016-01-20T01:12:22.313176 #16990]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.313748 #16990]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:12:22.315556 #16990] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.8ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:12:22.318318 #16990] DEBUG -- :   [1m[36mAdmin::Event Load (0.9ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:12:22.320872 #16990] DEBUG -- :   [1m[35mAdmin::Event Load (1.0ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:12:22.322741 #16990] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:12:22.323294 #16990]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (11.2ms)
+I, [2016-01-20T01:12:22.326179 #16990]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+D, [2016-01-20T01:12:22.327923 #16990] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:12:22.330300 #16990]  INFO -- :   Rendered layouts/_footer.html.erb (3.6ms)
+I, [2016-01-20T01:12:22.330814 #16990]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.331357 #16990]  INFO -- : Completed 200 OK in 25ms (Views: 16.1ms | ActiveRecord: 4.7ms)
+I, [2016-01-20T01:12:22.333203 #16990]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.335215 #16990]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:12:22.338798 #16990] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:12:22.340940 #16990]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.341575 #16990]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.342079 #16990]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:12:22.343269 #16990] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:12:22.345218 #16990] DEBUG -- :   [1m[36mAdmin::Event Load (0.8ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:12:22.347043 #16990] DEBUG -- :   [1m[35mAdmin::Event Load (0.7ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:12:22.348641 #16990] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:12:22.349023 #16990]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (8.6ms)
+I, [2016-01-20T01:12:22.350747 #16990]  INFO -- :   Rendered layouts/_header.html.erb (0.8ms)
+D, [2016-01-20T01:12:22.351954 #16990] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:12:22.352949 #16990]  INFO -- :   Rendered layouts/_footer.html.erb (1.9ms)
+I, [2016-01-20T01:12:22.353189 #16990]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:12:22.353489 #16990]  INFO -- : Completed 200 OK in 18ms (Views: 10.7ms | ActiveRecord: 4.0ms)
+I, [2016-01-20T01:12:22.355184 #16990]  INFO -- : Started GET "/assets/frontend/p1.jpg" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.365137 #16990]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:12:22 +0530
+I, [2016-01-20T01:12:22.366675 #16990]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:12:22.369337 #16990] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:12:22.370582 #16990]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.370906 #16990]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.371219 #16990]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:12:22.372630 #16990] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.7ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:12:22.374795 #16990] DEBUG -- :   [1m[36mAdmin::Event Load (0.8ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:12:22.376254 #16990] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:12:22.377325 #16990] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:12:22.377644 #16990]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (7.3ms)
+I, [2016-01-20T01:12:22.379646 #16990]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+D, [2016-01-20T01:12:22.381261 #16990] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:12:22.382909 #16990]  INFO -- :   Rendered layouts/_footer.html.erb (2.8ms)
+I, [2016-01-20T01:12:22.383367 #16990]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:12:22.383882 #16990]  INFO -- : Completed 200 OK in 17ms (Views: 10.9ms | ActiveRecord: 3.5ms)
+I, [2016-01-20T01:13:08.294912 #16990]  INFO -- : Started GET "/login" for 127.0.0.1 at 2016-01-20 01:13:08 +0530
+I, [2016-01-20T01:13:08.299829 #16990]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-01-20T01:13:08.548298 #16990]  INFO -- :   Rendered devise/shared/_links.html.erb (2.2ms)
+I, [2016-01-20T01:13:08.550128 #16990]  INFO -- :   Rendered devise/shared/_footer.html.erb (0.7ms)
+I, [2016-01-20T01:13:08.551040 #16990]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/admin/empty (167.6ms)
+I, [2016-01-20T01:13:08.554553 #16990]  INFO -- : Completed 500 Internal Server Error in 254ms (ActiveRecord: 7.3ms)
+F, [2016-01-20T01:13:08.557257 #16990] FATAL -- : 
+ActionView::Template::Error (undefined method `find_asset' for nil:NilClass):
+     6:     <title>INSPINIA | Responsive admin theme</title>
+     7: 
+     8:     <!-- Include style per-controller - vendor plugins -->
+     9:     <%= stylesheet_link_tag params[:controller] if ::Rails.application.assets.find_asset("#{params[:controller]}.css") %>
+    10: 
+    11:     <!-- Main css styles -->
+    12:     <%= stylesheet_link_tag    'admin' %>
+  app/views/layouts/admin/empty.html.erb:9:in `_app_views_layouts_admin_empty_html_erb___3691952647352541188_69866370399340'
+
+
+I, [2016-01-20T01:14:57.393950 #17600]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.606360 #17600]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:14:57.631661 #17600] DEBUG -- :   [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:14:57.639667 #17600]  INFO -- :   Rendered frontend/_banner.html.erb (0.5ms)
+I, [2016-01-20T01:14:57.641194 #17600]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.5ms)
+I, [2016-01-20T01:14:57.643228 #17600]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (1.1ms)
+D, [2016-01-20T01:14:57.645114 #17600] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (1.1ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:14:57.651603 #17600] DEBUG -- :   [1m[36mAdmin::Event Load (1.3ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:14:57.655328 #17600] DEBUG -- :   [1m[35mAdmin::Event Load (0.7ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:14:57.656742 #17600] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.8ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:14:57.658811 #17600]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (23.4ms)
+I, [2016-01-20T01:14:57.664020 #17600]  INFO -- :   Rendered layouts/_header.html.erb (2.2ms)
+D, [2016-01-20T01:14:57.668981 #17600] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (1.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:14:57.675009 #17600]  INFO -- :   Rendered layouts/_footer.html.erb (10.0ms)
+I, [2016-01-20T01:14:57.677304 #17600]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.9ms)
+I, [2016-01-20T01:14:57.678057 #17600]  INFO -- : Completed 200 OK in 71ms (Views: 33.4ms | ActiveRecord: 16.9ms)
+I, [2016-01-20T01:14:57.707613 #17600]  INFO -- : Started GET "/assets/application-5a377ff7f1972f9b5966d983f4d8fccb839adf1759591fc1a27b7c6b8bf98e08.css" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.713446 #17600]  INFO -- : Started GET "/assets/application-5dfc386a27a843758193bf6e8ca9770c092b664ecd4e27d8b0350cf9f0aa7122.js" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.721913 #17600]  INFO -- : Started GET "/assets/frontend/Drawing.png" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.724883 #17600]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.726823 #17600]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:14:57.729600 #17600] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:14:57.730808 #17600]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.731139 #17600]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.731480 #17600]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:14:57.732537 #17600] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:14:57.734196 #17600] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:14:57.735604 #17600] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:14:57.736680 #17600] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:14:57.737133 #17600]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.5ms)
+I, [2016-01-20T01:14:57.739705 #17600]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+D, [2016-01-20T01:14:57.741183 #17600] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:14:57.742133 #17600]  INFO -- :   Rendered layouts/_footer.html.erb (2.1ms)
+I, [2016-01-20T01:14:57.742373 #17600]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.742681 #17600]  INFO -- : Completed 200 OK in 16ms (Views: 9.8ms | ActiveRecord: 3.2ms)
+I, [2016-01-20T01:14:57.748197 #17600]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.749763 #17600]  INFO -- : Processing by FrontendController#index as */*
+D, [2016-01-20T01:14:57.752484 #17600] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:14:57.759676 #17600]  INFO -- :   Rendered frontend/_banner.html.erb (0.3ms)
+I, [2016-01-20T01:14:57.762556 #17600]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.4ms)
+I, [2016-01-20T01:14:57.765878 #17600]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.8ms)
+D, [2016-01-20T01:14:57.766914 #17600] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:14:57.768714 #17600] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:14:57.770083 #17600] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:14:57.771282 #17600] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:14:57.771657 #17600]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (16.1ms)
+I, [2016-01-20T01:14:57.776780 #17600]  INFO -- :   Rendered layouts/_header.html.erb (1.7ms)
+D, [2016-01-20T01:14:57.781386 #17600] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:14:57.782548 #17600]  INFO -- :   Rendered layouts/_footer.html.erb (3.2ms)
+I, [2016-01-20T01:14:57.785795 #17600]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.5ms)
+I, [2016-01-20T01:14:57.786161 #17600]  INFO -- : Completed 200 OK in 36ms (Views: 30.3ms | ActiveRecord: 3.4ms)
+I, [2016-01-20T01:14:57.831358 #17600]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.840107 #17600]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:14:57.850795 #17600] DEBUG -- :   [1m[36m (5.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:14:57.852619 #17600]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.853033 #17600]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.853368 #17600]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:14:57.854686 #17600] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.7ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:14:57.856500 #17600] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:14:57.858859 #17600] DEBUG -- :   [1m[35mAdmin::Event Load (0.8ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:14:57.860949 #17600] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.6ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:14:57.861622 #17600]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (9.3ms)
+I, [2016-01-20T01:14:57.865014 #17600]  INFO -- :   Rendered layouts/_header.html.erb (1.4ms)
+D, [2016-01-20T01:14:57.866986 #17600] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.8ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:14:57.868770 #17600]  INFO -- :   Rendered layouts/_footer.html.erb (3.2ms)
+I, [2016-01-20T01:14:57.869302 #17600]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.869748 #17600]  INFO -- : Completed 200 OK in 27ms (Views: 14.6ms | ActiveRecord: 9.2ms)
+I, [2016-01-20T01:14:57.871771 #17600]  INFO -- : Started GET "/assets/frontend/3.jpg" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.874597 #17600]  INFO -- : Started GET "/assets/frontend/1.jpg" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.876571 #17600]  INFO -- : Started GET "/assets/frontend/4.jpg" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.878583 #17600]  INFO -- : Started GET "/assets/frontend/5.jpg" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.880916 #17600]  INFO -- : Started GET "/assets/frontend/2.jpg" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.912407 #17600]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.917364 #17600]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:14:57.922541 #17600] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:14:57.924523 #17600]  INFO -- :   Rendered frontend/_banner.html.erb (0.2ms)
+I, [2016-01-20T01:14:57.924864 #17600]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.925062 #17600]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:14:57.925979 #17600] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:14:57.927091 #17600] DEBUG -- :   [1m[36mAdmin::Event Load (0.4ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:14:57.927995 #17600] DEBUG -- :   [1m[35mAdmin::Event Load (0.3ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:14:57.928891 #17600] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.3ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:14:57.929219 #17600]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.1ms)
+I, [2016-01-20T01:14:57.931331 #17600]  INFO -- :   Rendered layouts/_header.html.erb (0.8ms)
+D, [2016-01-20T01:14:57.932807 #17600] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:14:57.934664 #17600]  INFO -- :   Rendered layouts/_footer.html.erb (2.9ms)
+I, [2016-01-20T01:14:57.935192 #17600]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.935600 #17600]  INFO -- : Completed 200 OK in 18ms (Views: 10.1ms | ActiveRecord: 2.9ms)
+I, [2016-01-20T01:14:57.937209 #17600]  INFO -- : Started GET "/assets/frontend/p1.jpg" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.981090 #17600]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:14:57 +0530
+I, [2016-01-20T01:14:57.983281 #17600]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:14:57.987091 #17600] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:14:57.988258 #17600]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.988571 #17600]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.988806 #17600]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:14:57.989702 #17600] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:14:57.990923 #17600] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:14:57.991883 #17600] DEBUG -- :   [1m[35mAdmin::Event Load (0.4ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:14:57.992902 #17600] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:14:57.993173 #17600]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.1ms)
+I, [2016-01-20T01:14:57.994630 #17600]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T01:14:57.995681 #17600] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:14:57.996703 #17600]  INFO -- :   Rendered layouts/_footer.html.erb (1.8ms)
+I, [2016-01-20T01:14:57.996970 #17600]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:14:57.997279 #17600]  INFO -- : Completed 200 OK in 14ms (Views: 7.3ms | ActiveRecord: 2.9ms)
+I, [2016-01-20T01:14:58.044521 #17600]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:14:58 +0530
+I, [2016-01-20T01:14:58.046218 #17600]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:14:58.049214 #17600] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:14:58.050912 #17600]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:14:58.051189 #17600]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:14:58.051434 #17600]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:14:58.052447 #17600] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:14:58.053694 #17600] DEBUG -- :   [1m[36mAdmin::Event Load (0.4ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:14:58.055202 #17600] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:14:58.056798 #17600] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:14:58.057171 #17600]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.5ms)
+I, [2016-01-20T01:14:58.058938 #17600]  INFO -- :   Rendered layouts/_header.html.erb (0.8ms)
+D, [2016-01-20T01:14:58.060145 #17600] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:14:58.061291 #17600]  INFO -- :   Rendered layouts/_footer.html.erb (2.1ms)
+I, [2016-01-20T01:14:58.061638 #17600]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:14:58.061992 #17600]  INFO -- : Completed 200 OK in 16ms (Views: 9.3ms | ActiveRecord: 3.4ms)
+I, [2016-01-20T01:14:58.106480 #17600]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:14:58 +0530
+I, [2016-01-20T01:14:58.108486 #17600]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:14:58.111148 #17600] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:14:58.112102 #17600]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:14:58.112333 #17600]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.0ms)
+I, [2016-01-20T01:14:58.112552 #17600]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:14:58.113440 #17600] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:14:58.114659 #17600] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:14:58.115737 #17600] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:14:58.116882 #17600] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:14:58.117216 #17600]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.3ms)
+I, [2016-01-20T01:14:58.118680 #17600]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T01:14:58.120033 #17600] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:14:58.121255 #17600]  INFO -- :   Rendered layouts/_footer.html.erb (2.3ms)
+I, [2016-01-20T01:14:58.121626 #17600]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:14:58.122071 #17600]  INFO -- : Completed 200 OK in 13ms (Views: 7.5ms | ActiveRecord: 3.6ms)
+I, [2016-01-20T01:14:58.166340 #17600]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:14:58 +0530
+I, [2016-01-20T01:14:58.168566 #17600]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:14:58.172667 #17600] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:14:58.174433 #17600]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:14:58.174992 #17600]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:14:58.175407 #17600]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:14:58.176870 #17600] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.8ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:14:58.178433 #17600] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:14:58.179567 #17600] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:14:58.180526 #17600] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:14:58.180834 #17600]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.8ms)
+I, [2016-01-20T01:14:58.182258 #17600]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T01:14:58.183439 #17600] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:14:58.184626 #17600]  INFO -- :   Rendered layouts/_footer.html.erb (2.1ms)
+I, [2016-01-20T01:14:58.184952 #17600]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:14:58.185358 #17600]  INFO -- : Completed 200 OK in 16ms (Views: 9.0ms | ActiveRecord: 3.7ms)
+I, [2016-01-20T01:14:58.232216 #17600]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:14:58 +0530
+I, [2016-01-20T01:14:58.234902 #17600]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:14:58.238214 #17600] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:14:58.239328 #17600]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:14:58.239634 #17600]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.0ms)
+I, [2016-01-20T01:14:58.239828 #17600]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:14:58.240890 #17600] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:14:58.242178 #17600] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:14:58.243374 #17600] DEBUG -- :   [1m[35mAdmin::Event Load (0.7ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:14:58.244401 #17600] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:14:58.244634 #17600]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.5ms)
+I, [2016-01-20T01:14:58.246019 #17600]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T01:14:58.247207 #17600] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:14:58.248089 #17600]  INFO -- :   Rendered layouts/_footer.html.erb (1.9ms)
+I, [2016-01-20T01:14:58.248376 #17600]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:14:58.248676 #17600]  INFO -- : Completed 200 OK in 13ms (Views: 6.8ms | ActiveRecord: 3.7ms)
+I, [2016-01-20T01:18:47.587022 #18391]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:18:47 +0530
+I, [2016-01-20T01:18:47.854478 #18391]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:18:47.915198 #18391] DEBUG -- :   [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:18:47.951580 #18391]  INFO -- :   Rendered frontend/_banner.html.erb (0.4ms)
+I, [2016-01-20T01:18:47.953067 #18391]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.5ms)
+I, [2016-01-20T01:18:47.955070 #18391]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.9ms)
+D, [2016-01-20T01:18:47.956716 #18391] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.8ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:18:47.961429 #18391] DEBUG -- :   [1m[36mAdmin::Event Load (0.8ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:18:47.964270 #18391] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:18:47.965585 #18391] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.6ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:18:47.967283 #18391]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (19.1ms)
+I, [2016-01-20T01:18:47.974883 #18391]  INFO -- :   Rendered layouts/_header.html.erb (3.5ms)
+D, [2016-01-20T01:18:47.980283 #18391] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (1.0ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:18:47.984982 #18391]  INFO -- :   Rendered layouts/_footer.html.erb (8.4ms)
+I, [2016-01-20T01:18:47.987190 #18391]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.8ms)
+I, [2016-01-20T01:18:47.987954 #18391]  INFO -- : Completed 200 OK in 133ms (Views: 63.0ms | ActiveRecord: 30.3ms)
+I, [2016-01-20T01:18:48.014528 #18391]  INFO -- : Started GET "/assets/application-45b93cdb71d7488c0fe90fc01450dde4130ad176af0142572dbf15d8f07f495b.css" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.019981 #18391]  INFO -- : Started GET "/assets/application-581f0dafa3534df0ee9b3b4965ca6ab87e5eb99030db128bf7493c24cf2e55e4.js" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.027580 #18391]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.029190 #18391]  INFO -- : Processing by FrontendController#index as */*
+D, [2016-01-20T01:18:48.031913 #18391] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:18:48.041056 #18391]  INFO -- :   Rendered frontend/_banner.html.erb (0.4ms)
+I, [2016-01-20T01:18:48.045796 #18391]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.4ms)
+I, [2016-01-20T01:18:48.049398 #18391]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.8ms)
+D, [2016-01-20T01:18:48.050431 #18391] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:18:48.051812 #18391] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:18:48.053122 #18391] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:18:48.054470 #18391] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:18:48.054829 #18391]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (18.6ms)
+I, [2016-01-20T01:18:48.061570 #18391]  INFO -- :   Rendered layouts/_header.html.erb (2.4ms)
+D, [2016-01-20T01:18:48.078244 #18391] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:18:48.080415 #18391]  INFO -- :   Rendered layouts/_footer.html.erb (4.9ms)
+I, [2016-01-20T01:18:48.085913 #18391]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.6ms)
+I, [2016-01-20T01:18:48.086407 #18391]  INFO -- : Completed 200 OK in 57ms (Views: 51.0ms | ActiveRecord: 3.3ms)
+I, [2016-01-20T01:18:48.087786 #18391]  INFO -- : Started GET "/assets/frontend/Drawing.png" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.127866 #18391]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.129330 #18391]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:18:48.131827 #18391] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:18:48.132843 #18391]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.133088 #18391]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.133309 #18391]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:18:48.134317 #18391] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:18:48.135899 #18391] DEBUG -- :   [1m[36mAdmin::Event Load (0.9ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:18:48.137426 #18391] DEBUG -- :   [1m[35mAdmin::Event Load (0.7ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:18:48.139101 #18391] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:18:48.139747 #18391]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (7.0ms)
+I, [2016-01-20T01:18:48.143024 #18391]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+D, [2016-01-20T01:18:48.144743 #18391] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:18:48.146543 #18391]  INFO -- :   Rendered layouts/_footer.html.erb (3.1ms)
+I, [2016-01-20T01:18:48.147002 #18391]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.147494 #18391]  INFO -- : Completed 200 OK in 18ms (Views: 11.7ms | ActiveRecord: 4.1ms)
+I, [2016-01-20T01:18:48.211010 #18391]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.221893 #18391]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:18:48.224211 #18391] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:18:48.225418 #18391]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.225804 #18391]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.226091 #18391]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:18:48.226999 #18391] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.4ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:18:48.228644 #18391] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:18:48.230228 #18391] DEBUG -- :   [1m[35mAdmin::Event Load (0.7ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:18:48.231548 #18391] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:18:48.231958 #18391]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.7ms)
+I, [2016-01-20T01:18:48.234234 #18391]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+D, [2016-01-20T01:18:48.235602 #18391] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:18:48.236928 #18391]  INFO -- :   Rendered layouts/_footer.html.erb (2.3ms)
+I, [2016-01-20T01:18:48.237347 #18391]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.237804 #18391]  INFO -- : Completed 200 OK in 16ms (Views: 10.2ms | ActiveRecord: 3.2ms)
+I, [2016-01-20T01:18:48.239810 #18391]  INFO -- : Started GET "/assets/frontend/1.jpg" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.242249 #18391]  INFO -- : Started GET "/assets/frontend/4.jpg" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.244192 #18391]  INFO -- : Started GET "/assets/frontend/2.jpg" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.246151 #18391]  INFO -- : Started GET "/assets/frontend/3.jpg" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.248828 #18391]  INFO -- : Started GET "/assets/frontend/5.jpg" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.281749 #18391]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.288388 #18391]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:18:48.291381 #18391] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:18:48.292445 #18391]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.292702 #18391]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.0ms)
+I, [2016-01-20T01:18:48.292913 #18391]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:18:48.293854 #18391] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:18:48.295272 #18391] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:18:48.296558 #18391] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:18:48.297910 #18391] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:18:48.298190 #18391]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.0ms)
+I, [2016-01-20T01:18:48.299645 #18391]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T01:18:48.300667 #18391] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:18:48.301556 #18391]  INFO -- :   Rendered layouts/_footer.html.erb (1.7ms)
+I, [2016-01-20T01:18:48.301820 #18391]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.302132 #18391]  INFO -- : Completed 200 OK in 13ms (Views: 7.7ms | ActiveRecord: 3.1ms)
+I, [2016-01-20T01:18:48.303659 #18391]  INFO -- : Started GET "/assets/frontend/p1.jpg" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.347388 #18391]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.349147 #18391]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:18:48.352452 #18391] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:18:48.353678 #18391]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.353947 #18391]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.0ms)
+I, [2016-01-20T01:18:48.354214 #18391]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:18:48.355309 #18391] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:18:48.357262 #18391] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:18:48.358893 #18391] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:18:48.360395 #18391] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:18:48.360896 #18391]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (7.4ms)
+I, [2016-01-20T01:18:48.363516 #18391]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+D, [2016-01-20T01:18:48.364990 #18391] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:18:48.366715 #18391]  INFO -- :   Rendered layouts/_footer.html.erb (2.8ms)
+I, [2016-01-20T01:18:48.366970 #18391]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:18:48.367445 #18391]  INFO -- : Completed 200 OK in 18ms (Views: 11.4ms | ActiveRecord: 3.6ms)
+I, [2016-01-20T01:18:48.412635 #18391]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.414374 #18391]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:18:48.417590 #18391] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:18:48.419082 #18391]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.419395 #18391]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.0ms)
+I, [2016-01-20T01:18:48.419641 #18391]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:18:48.420900 #18391] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:18:48.422712 #18391] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:18:48.424277 #18391] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:18:48.425753 #18391] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:18:48.426138 #18391]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (7.3ms)
+I, [2016-01-20T01:18:48.428344 #18391]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+D, [2016-01-20T01:18:48.430022 #18391] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:18:48.431834 #18391]  INFO -- :   Rendered layouts/_footer.html.erb (3.0ms)
+I, [2016-01-20T01:18:48.432267 #18391]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.432840 #18391]  INFO -- : Completed 200 OK in 18ms (Views: 11.5ms | ActiveRecord: 3.5ms)
+I, [2016-01-20T01:18:48.476630 #18391]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.479021 #18391]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:18:48.482981 #18391] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:18:48.484014 #18391]  INFO -- :   Rendered frontend/_banner.html.erb (0.0ms)
+I, [2016-01-20T01:18:48.484274 #18391]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.0ms)
+I, [2016-01-20T01:18:48.484509 #18391]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:18:48.485476 #18391] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:18:48.487344 #18391] DEBUG -- :   [1m[36mAdmin::Event Load (0.8ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:18:48.489085 #18391] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:18:48.490559 #18391] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:18:48.491066 #18391]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (7.2ms)
+I, [2016-01-20T01:18:48.494018 #18391]  INFO -- :   Rendered layouts/_header.html.erb (1.4ms)
+D, [2016-01-20T01:18:48.495818 #18391] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:18:48.497213 #18391]  INFO -- :   Rendered layouts/_footer.html.erb (2.7ms)
+I, [2016-01-20T01:18:48.497544 #18391]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.497924 #18391]  INFO -- : Completed 200 OK in 19ms (Views: 11.3ms | ActiveRecord: 3.7ms)
+I, [2016-01-20T01:18:48.541312 #18391]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.543734 #18391]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:18:48.548543 #18391] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:18:48.549653 #18391]  INFO -- :   Rendered frontend/_banner.html.erb (0.0ms)
+I, [2016-01-20T01:18:48.550067 #18391]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.550477 #18391]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:18:48.551759 #18391] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:18:48.553511 #18391] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:18:48.554863 #18391] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:18:48.555898 #18391] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:18:48.556149 #18391]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.7ms)
+I, [2016-01-20T01:18:48.557623 #18391]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T01:18:48.558664 #18391] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:18:48.559532 #18391]  INFO -- :   Rendered layouts/_footer.html.erb (1.7ms)
+I, [2016-01-20T01:18:48.559749 #18391]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:18:48.560038 #18391]  INFO -- : Completed 200 OK in 16ms (Views: 8.0ms | ActiveRecord: 3.6ms)
+I, [2016-01-20T01:18:48.607206 #18391]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:18:48 +0530
+I, [2016-01-20T01:18:48.609893 #18391]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:18:48.613648 #18391] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:18:48.614573 #18391]  INFO -- :   Rendered frontend/_banner.html.erb (0.0ms)
+I, [2016-01-20T01:18:48.614775 #18391]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.0ms)
+I, [2016-01-20T01:18:48.614988 #18391]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:18:48.615724 #18391] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.4ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:18:48.617056 #18391] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:18:48.618438 #18391] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:18:48.620026 #18391] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.6ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:18:48.620389 #18391]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.9ms)
+I, [2016-01-20T01:18:48.622101 #18391]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T01:18:48.623189 #18391] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:18:48.624045 #18391]  INFO -- :   Rendered layouts/_footer.html.erb (1.7ms)
+I, [2016-01-20T01:18:48.624288 #18391]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:18:48.624639 #18391]  INFO -- : Completed 200 OK in 14ms (Views: 7.6ms | ActiveRecord: 3.5ms)
+I, [2016-01-20T01:25:35.129951 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.207346 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:25:35.232549 #19745] DEBUG -- :   [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:25:35.245500 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (1.0ms)
+I, [2016-01-20T01:25:35.247616 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.7ms)
+I, [2016-01-20T01:25:35.250555 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (1.6ms)
+D, [2016-01-20T01:25:35.252735 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (1.1ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:25:35.260430 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (1.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:25:35.264527 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.8ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:25:35.266048 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.8ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:25:35.268799 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (30.3ms)
+I, [2016-01-20T01:25:35.276606 #19745]  INFO -- :   Rendered layouts/_header.html.erb (3.2ms)
+D, [2016-01-20T01:25:35.282673 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (1.2ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:25:35.286228 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (8.2ms)
+I, [2016-01-20T01:25:35.287387 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.5ms)
+I, [2016-01-20T01:25:35.287812 #19745]  INFO -- : Completed 200 OK in 80ms (Views: 41.2ms | ActiveRecord: 16.3ms)
+I, [2016-01-20T01:25:35.319486 #19745]  INFO -- : Started GET "/assets/application-45b93cdb71d7488c0fe90fc01450dde4130ad176af0142572dbf15d8f07f495b.css" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.327299 #19745]  INFO -- : Started GET "/assets/application-581f0dafa3534df0ee9b3b4965ca6ab87e5eb99030db128bf7493c24cf2e55e4.js" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.329901 #19745]  INFO -- : Started GET "/assets/frontend/Drawing.png" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.346205 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.348711 #19745]  INFO -- : Processing by FrontendController#index as */*
+D, [2016-01-20T01:25:35.353095 #19745] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:25:35.366041 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.7ms)
+I, [2016-01-20T01:25:35.370773 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.8ms)
+I, [2016-01-20T01:25:35.376432 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (1.5ms)
+D, [2016-01-20T01:25:35.377822 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:25:35.379562 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:25:35.380979 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:25:35.382344 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:25:35.382786 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (23.6ms)
+I, [2016-01-20T01:25:35.390430 #19745]  INFO -- :   Rendered layouts/_header.html.erb (2.8ms)
+D, [2016-01-20T01:25:35.397693 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:25:35.399632 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (5.1ms)
+I, [2016-01-20T01:25:35.402879 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.5ms)
+I, [2016-01-20T01:25:35.403250 #19745]  INFO -- : Completed 200 OK in 54ms (Views: 46.7ms | ActiveRecord: 3.3ms)
+I, [2016-01-20T01:25:35.448075 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.449633 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:25:35.452215 #19745] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:25:35.453297 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.453532 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.453760 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:25:35.454666 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:25:35.455935 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:25:35.457065 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:25:35.458034 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:25:35.458322 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.2ms)
+I, [2016-01-20T01:25:35.460160 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T01:25:35.461589 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:25:35.462661 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.2ms)
+I, [2016-01-20T01:25:35.462975 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.463301 #19745]  INFO -- : Completed 200 OK in 13ms (Views: 7.7ms | ActiveRecord: 3.5ms)
+I, [2016-01-20T01:25:35.512058 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.525382 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:25:35.532420 #19745] DEBUG -- :   [1m[36m (3.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:25:35.534017 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.534567 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.2ms)
+I, [2016-01-20T01:25:35.535209 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:25:35.536511 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:25:35.538578 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:25:35.540243 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:25:35.542168 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.8ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:25:35.542756 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (9.0ms)
+I, [2016-01-20T01:25:35.545240 #19745]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+D, [2016-01-20T01:25:35.546701 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:25:35.547758 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.1ms)
+I, [2016-01-20T01:25:35.548034 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:25:35.548356 #19745]  INFO -- : Completed 200 OK in 23ms (Views: 12.1ms | ActiveRecord: 6.6ms)
+I, [2016-01-20T01:25:35.549833 #19745]  INFO -- : Started GET "/assets/frontend/1.jpg" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.552608 #19745]  INFO -- : Started GET "/assets/frontend/3.jpg" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.554633 #19745]  INFO -- : Started GET "/assets/frontend/4.jpg" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.557175 #19745]  INFO -- : Started GET "/assets/frontend/2.jpg" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.560756 #19745]  INFO -- : Started GET "/assets/frontend/5.jpg" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.594277 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.598021 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:25:35.600683 #19745] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:25:35.602415 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.602873 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.603274 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:25:35.604489 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:25:35.605846 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:25:35.606973 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:25:35.608023 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:25:35.608347 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.3ms)
+I, [2016-01-20T01:25:35.609946 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T01:25:35.611265 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:25:35.612207 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.0ms)
+I, [2016-01-20T01:25:35.612468 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:25:35.612781 #19745]  INFO -- : Completed 200 OK in 15ms (Views: 8.4ms | ActiveRecord: 3.6ms)
+I, [2016-01-20T01:25:35.614199 #19745]  INFO -- : Started GET "/assets/frontend/p1.jpg" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.659324 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.661381 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:25:35.664520 #19745] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:25:35.666080 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.666532 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.666981 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:25:35.668084 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:25:35.669485 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:25:35.670706 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:25:35.671880 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:25:35.672173 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.4ms)
+I, [2016-01-20T01:25:35.673853 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T01:25:35.674971 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:25:35.676398 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.2ms)
+I, [2016-01-20T01:25:35.676748 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:25:35.677149 #19745]  INFO -- : Completed 200 OK in 16ms (Views: 9.4ms | ActiveRecord: 3.1ms)
+I, [2016-01-20T01:25:35.722532 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.724752 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:25:35.728502 #19745] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:25:35.730093 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.730523 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.730871 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:25:35.732213 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:25:35.734075 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:25:35.735631 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:25:35.736979 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:25:35.737411 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (7.6ms)
+I, [2016-01-20T01:25:35.739774 #19745]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+D, [2016-01-20T01:25:35.741209 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:25:35.743549 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (3.4ms)
+I, [2016-01-20T01:25:35.743942 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.744357 #19745]  INFO -- : Completed 200 OK in 19ms (Views: 12.3ms | ActiveRecord: 3.5ms)
+I, [2016-01-20T01:25:35.788725 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.791330 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:25:35.795682 #19745] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:25:35.797078 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.0ms)
+I, [2016-01-20T01:25:35.797340 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.797543 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:25:35.798722 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.8ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:25:35.800128 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:25:35.801306 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:25:35.802280 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:25:35.802531 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.6ms)
+I, [2016-01-20T01:25:35.803912 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T01:25:35.805207 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:25:35.806086 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.0ms)
+I, [2016-01-20T01:25:35.806310 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:25:35.806601 #19745]  INFO -- : Completed 200 OK in 15ms (Views: 7.0ms | ActiveRecord: 4.1ms)
+I, [2016-01-20T01:25:35.849036 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.850953 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:25:35.853757 #19745] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:25:35.854751 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.855006 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.855226 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:25:35.856111 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:25:35.857549 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:25:35.859930 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.7ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:25:35.861712 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:25:35.862103 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (7.5ms)
+I, [2016-01-20T01:25:35.863812 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T01:25:35.865316 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:25:35.867154 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (3.0ms)
+I, [2016-01-20T01:25:35.867579 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.868057 #19745]  INFO -- : Completed 200 OK in 17ms (Views: 10.6ms | ActiveRecord: 3.8ms)
+I, [2016-01-20T01:25:35.913724 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:25:35 +0530
+I, [2016-01-20T01:25:35.916215 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:25:35.919007 #19745] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:25:35.920001 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.0ms)
+I, [2016-01-20T01:25:35.920339 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:25:35.920572 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:25:35.921743 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.7ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:25:35.923162 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:25:35.924224 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:25:35.925345 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:25:35.925703 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.8ms)
+I, [2016-01-20T01:25:35.927583 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.8ms)
+D, [2016-01-20T01:25:35.929082 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:25:35.930110 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.2ms)
+I, [2016-01-20T01:25:35.930356 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:25:35.930657 #19745]  INFO -- : Completed 200 OK in 14ms (Views: 8.1ms | ActiveRecord: 3.7ms)
+I, [2016-01-20T01:27:53.031613 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.034044 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:27:53.037786 #19745] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:27:53.039436 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.039940 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.040454 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:27:53.041729 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:27:53.043620 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:27:53.045019 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:27:53.046049 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:27:53.046325 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (7.2ms)
+I, [2016-01-20T01:27:53.047811 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T01:27:53.048867 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:27:53.049782 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (1.7ms)
+I, [2016-01-20T01:27:53.050016 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:27:53.050344 #19745]  INFO -- : Completed 200 OK in 16ms (Views: 9.2ms | ActiveRecord: 3.2ms)
+I, [2016-01-20T01:27:53.080859 #19745]  INFO -- : Started GET "/assets/application-45b93cdb71d7488c0fe90fc01450dde4130ad176af0142572dbf15d8f07f495b.css" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.090150 #19745]  INFO -- : Started GET "/assets/application-581f0dafa3534df0ee9b3b4965ca6ab87e5eb99030db128bf7493c24cf2e55e4.js" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.094798 #19745]  INFO -- : Started GET "/assets/frontend/Drawing.png" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.106426 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.108373 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:27:53.112055 #19745] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:27:53.113861 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.114690 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.2ms)
+I, [2016-01-20T01:27:53.115208 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:27:53.116461 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:27:53.118243 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:27:53.119847 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:27:53.121156 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:27:53.121517 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (8.0ms)
+I, [2016-01-20T01:27:53.123619 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+D, [2016-01-20T01:27:53.124949 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:27:53.127112 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (3.1ms)
+I, [2016-01-20T01:27:53.127518 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:27:53.127900 #19745]  INFO -- : Completed 200 OK in 19ms (Views: 12.2ms | ActiveRecord: 3.5ms)
+I, [2016-01-20T01:27:53.173622 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.175773 #19745]  INFO -- : Processing by FrontendController#index as */*
+D, [2016-01-20T01:27:53.179441 #19745] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:27:53.181311 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.181741 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.182178 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:27:53.183557 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.7ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:27:53.185357 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:27:53.186824 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:27:53.188286 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:27:53.188630 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (7.7ms)
+I, [2016-01-20T01:27:53.190130 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T01:27:53.191200 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:27:53.192173 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (1.8ms)
+I, [2016-01-20T01:27:53.192510 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.192866 #19745]  INFO -- : Completed 200 OK in 17ms (Views: 9.8ms | ActiveRecord: 3.5ms)
+I, [2016-01-20T01:27:53.242569 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.257321 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:27:53.260207 #19745] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:27:53.261814 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.262229 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.262777 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.3ms)
+D, [2016-01-20T01:27:53.264331 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:27:53.266940 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.9ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:27:53.269072 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.9ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:27:53.270937 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.6ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:27:53.271511 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (9.9ms)
+I, [2016-01-20T01:27:53.273133 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T01:27:53.274814 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:27:53.276191 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.7ms)
+I, [2016-01-20T01:27:53.276591 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.276985 #19745]  INFO -- : Completed 200 OK in 19ms (Views: 12.2ms | ActiveRecord: 4.5ms)
+I, [2016-01-20T01:27:53.278533 #19745]  INFO -- : Started GET "/assets/frontend/5.jpg" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.281017 #19745]  INFO -- : Started GET "/assets/frontend/1.jpg" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.283657 #19745]  INFO -- : Started GET "/assets/frontend/4.jpg" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.286361 #19745]  INFO -- : Started GET "/assets/frontend/2.jpg" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.288572 #19745]  INFO -- : Started GET "/assets/frontend/3.jpg" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.326201 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.330865 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:27:53.333574 #19745] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:27:53.335090 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.335506 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.335870 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:27:53.337088 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:27:53.338662 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:27:53.339872 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:27:53.341011 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.3ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:27:53.341307 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.5ms)
+I, [2016-01-20T01:27:53.343139 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+D, [2016-01-20T01:27:53.344435 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:27:53.345629 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.2ms)
+I, [2016-01-20T01:27:53.345990 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.346319 #19745]  INFO -- : Completed 200 OK in 15ms (Views: 9.5ms | ActiveRecord: 3.2ms)
+I, [2016-01-20T01:27:53.347724 #19745]  INFO -- : Started GET "/assets/frontend/p1.jpg" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.391105 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.393358 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:27:53.396787 #19745] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:27:53.398146 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.398548 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.398848 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:27:53.400176 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.7ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:27:53.401708 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:27:53.402970 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.7ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:27:53.403953 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:27:53.404186 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.3ms)
+I, [2016-01-20T01:27:53.405632 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T01:27:53.406769 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:27:53.407618 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (1.8ms)
+I, [2016-01-20T01:27:53.407833 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:27:53.408113 #19745]  INFO -- : Completed 200 OK in 15ms (Views: 7.6ms | ActiveRecord: 3.9ms)
+I, [2016-01-20T01:27:53.458138 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.460854 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:27:53.464086 #19745] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:27:53.465230 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.0ms)
+I, [2016-01-20T01:27:53.465491 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.465712 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:27:53.466715 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:27:53.468033 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:27:53.469128 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:27:53.470134 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:27:53.470431 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.4ms)
+I, [2016-01-20T01:27:53.471905 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T01:27:53.473211 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:27:53.474284 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.1ms)
+I, [2016-01-20T01:27:53.474655 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:27:53.474995 #19745]  INFO -- : Completed 200 OK in 14ms (Views: 7.7ms | ActiveRecord: 3.2ms)
+I, [2016-01-20T01:27:53.526306 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.529339 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:27:53.534084 #19745] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:27:53.535853 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.536298 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.536779 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T01:27:53.538218 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.7ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:27:53.540150 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:27:53.541862 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.7ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:27:53.543536 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:27:53.544128 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (8.6ms)
+I, [2016-01-20T01:27:53.546091 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.8ms)
+D, [2016-01-20T01:27:53.547493 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.8ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:27:53.548532 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.2ms)
+I, [2016-01-20T01:27:53.548765 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T01:27:53.549087 #19745]  INFO -- : Completed 200 OK in 19ms (Views: 10.7ms | ActiveRecord: 4.4ms)
+I, [2016-01-20T01:27:53.595719 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.598104 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:27:53.602227 #19745] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:27:53.603962 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.604506 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.2ms)
+I, [2016-01-20T01:27:53.604732 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:27:53.605668 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:27:53.606921 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:27:53.607994 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:27:53.608876 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:27:53.609160 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.5ms)
+I, [2016-01-20T01:27:53.610590 #19745]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T01:27:53.611960 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:27:53.613055 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (2.2ms)
+I, [2016-01-20T01:27:53.613349 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.613661 #19745]  INFO -- : Completed 200 OK in 15ms (Views: 8.0ms | ActiveRecord: 3.5ms)
+I, [2016-01-20T01:27:53.659190 #19745]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 01:27:53 +0530
+I, [2016-01-20T01:27:53.661391 #19745]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T01:27:53.665411 #19745] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T01:27:53.666587 #19745]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.666870 #19745]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.667094 #19745]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T01:27:53.668183 #19745] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.7ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T01:27:53.669588 #19745] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T01:27:53.670696 #19745] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T01:27:53.671721 #19745] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T01:27:53.672164 #19745]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.7ms)
+I, [2016-01-20T01:27:53.674752 #19745]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+D, [2016-01-20T01:27:53.676441 #19745] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T01:27:53.678464 #19745]  INFO -- :   Rendered layouts/_footer.html.erb (3.2ms)
+I, [2016-01-20T01:27:53.679022 #19745]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T01:27:53.679565 #19745]  INFO -- : Completed 200 OK in 18ms (Views: 10.4ms | ActiveRecord: 3.7ms)
+I, [2016-01-20T01:28:53.375674 #19745]  INFO -- : Started GET "/login" for 127.0.0.1 at 2016-01-20 01:28:53 +0530
+I, [2016-01-20T01:28:53.379717 #19745]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-01-20T01:28:53.625217 #19745]  INFO -- :   Rendered devise/shared/_links.html.erb (2.0ms)
+I, [2016-01-20T01:28:53.626913 #19745]  INFO -- :   Rendered devise/shared/_footer.html.erb (0.7ms)
+I, [2016-01-20T01:28:53.627823 #19745]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/admin/empty (167.0ms)
+I, [2016-01-20T01:28:53.631206 #19745]  INFO -- : Completed 500 Internal Server Error in 251ms (ActiveRecord: 5.6ms)
+F, [2016-01-20T01:28:53.635049 #19745] FATAL -- : 
+ActionView::Template::Error (undefined method `find_asset' for nil:NilClass):
+     6:     <title>INSPINIA | Responsive admin theme</title>
+     7: 
+     8:     <!-- Include style per-controller - vendor plugins -->
+     9:     <%= stylesheet_link_tag params[:controller] if ::Rails.application.assets.find_asset("#{params[:controller]}.css") %>
+    10: 
+    11:     <!-- Main css styles -->
+    12:     <%= stylesheet_link_tag    'admin' %>
+  app/views/layouts/admin/empty.html.erb:9:in `_app_views_layouts_admin_empty_html_erb___4474253408548110834_70020921977160'
+
+
+I, [2016-01-20T01:28:53.709047 #19745]  INFO -- : Started GET "/login" for 127.0.0.1 at 2016-01-20 01:28:53 +0530
+I, [2016-01-20T01:28:53.711244 #19745]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-01-20T01:28:53.715644 #19745]  INFO -- :   Rendered devise/shared/_links.html.erb (0.5ms)
+I, [2016-01-20T01:28:53.715935 #19745]  INFO -- :   Rendered devise/shared/_footer.html.erb (0.0ms)
+I, [2016-01-20T01:28:53.716374 #19745]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/admin/empty (2.9ms)
+I, [2016-01-20T01:28:53.717389 #19745]  INFO -- : Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+F, [2016-01-20T01:28:53.718971 #19745] FATAL -- : 
+ActionView::Template::Error (undefined method `find_asset' for nil:NilClass):
+     6:     <title>INSPINIA | Responsive admin theme</title>
+     7: 
+     8:     <!-- Include style per-controller - vendor plugins -->
+     9:     <%= stylesheet_link_tag params[:controller] if ::Rails.application.assets.find_asset("#{params[:controller]}.css") %>
+    10: 
+    11:     <!-- Main css styles -->
+    12:     <%= stylesheet_link_tag    'admin' %>
+  app/views/layouts/admin/empty.html.erb:9:in `_app_views_layouts_admin_empty_html_erb___4474253408548110834_70020921977160'
+
+
+I, [2016-01-20T11:19:29.903591 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:29 +0530
+I, [2016-01-20T11:19:30.587942 #5021]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T11:19:30.908192 #5021] DEBUG -- :   [1m[36m (58.4ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:30.950859 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.6ms)
+I, [2016-01-20T11:19:30.962018 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.7ms)
+I, [2016-01-20T11:19:30.964538 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (1.0ms)
+D, [2016-01-20T11:19:30.977744 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (12.4ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:30.997373 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (13.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.002164 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.7ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.022177 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (18.9ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.025013 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (87.0ms)
+I, [2016-01-20T11:19:31.045011 #5021]  INFO -- :   Rendered layouts/_header.html.erb (2.5ms)
+D, [2016-01-20T11:19:31.051242 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (2.0ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.055084 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (8.7ms)
+I, [2016-01-20T11:19:31.056603 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.5ms)
+I, [2016-01-20T11:19:31.057070 #5021]  INFO -- : Completed 200 OK in 469ms (Views: 93.1ms | ActiveRecord: 318.7ms)
+I, [2016-01-20T11:19:31.075496 #5021]  INFO -- : Started GET "/assets/application-45b93cdb71d7488c0fe90fc01450dde4130ad176af0142572dbf15d8f07f495b.css" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.094828 #5021]  INFO -- : Started GET "/assets/frontend/Drawing.png" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.102499 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.104976 #5021]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T11:19:31.108921 #5021] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.110190 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.0ms)
+I, [2016-01-20T11:19:31.110417 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.0ms)
+I, [2016-01-20T11:19:31.110627 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T11:19:31.111423 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.4ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.112636 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.113615 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.4ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.114573 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.3ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.114842 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (4.9ms)
+I, [2016-01-20T11:19:31.116545 #5021]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T11:19:31.117728 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.118647 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (1.8ms)
+I, [2016-01-20T11:19:31.118865 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T11:19:31.119156 #5021]  INFO -- : Completed 200 OK in 14ms (Views: 7.4ms | ActiveRecord: 2.9ms)
+I, [2016-01-20T11:19:31.124249 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.125623 #5021]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T11:19:31.127924 #5021] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.129000 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.129258 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.129498 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T11:19:31.130212 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.4ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.131799 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.132807 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.4ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.133623 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.3ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.133906 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.1ms)
+I, [2016-01-20T11:19:31.135323 #5021]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T11:19:31.136194 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.4ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.137160 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (1.6ms)
+I, [2016-01-20T11:19:31.137405 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T11:19:31.137722 #5021]  INFO -- : Completed 200 OK in 12ms (Views: 7.3ms | ActiveRecord: 2.4ms)
+I, [2016-01-20T11:19:31.179067 #5021]  INFO -- : Started GET "/assets/application-581f0dafa3534df0ee9b3b4965ca6ab87e5eb99030db128bf7493c24cf2e55e4.js" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.213727 #5021]  INFO -- : Started GET "/assets/frontend/1.jpg" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.219586 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.221429 #5021]  INFO -- : Processing by FrontendController#index as */*
+D, [2016-01-20T11:19:31.225458 #5021] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.235876 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.4ms)
+I, [2016-01-20T11:19:31.238984 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.3ms)
+I, [2016-01-20T11:19:31.242452 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.7ms)
+D, [2016-01-20T11:19:31.243350 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.4ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.244374 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.4ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.245575 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.246534 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.246762 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (15.6ms)
+I, [2016-01-20T11:19:31.252233 #5021]  INFO -- :   Rendered layouts/_header.html.erb (1.8ms)
+D, [2016-01-20T11:19:31.257183 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.258236 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (3.2ms)
+I, [2016-01-20T11:19:31.261400 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.4ms)
+I, [2016-01-20T11:19:31.261706 #5021]  INFO -- : Completed 200 OK in 40ms (Views: 32.9ms | ActiveRecord: 3.4ms)
+I, [2016-01-20T11:19:31.315804 #5021]  INFO -- : Started GET "/assets/frontend/3.jpg" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.322196 #5021]  INFO -- : Started GET "/assets/frontend/5.jpg" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.327214 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.332032 #5021]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T11:19:31.336591 #5021] DEBUG -- :   [1m[36m (2.2ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.337932 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.338337 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.338640 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T11:19:31.339610 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.340900 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.341835 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.4ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.342714 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.3ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.342998 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.4ms)
+I, [2016-01-20T11:19:31.344734 #5021]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T11:19:31.346624 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.8ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.348463 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (3.2ms)
+I, [2016-01-20T11:19:31.349050 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.349575 #5021]  INFO -- : Completed 200 OK in 17ms (Views: 9.8ms | ActiveRecord: 4.6ms)
+I, [2016-01-20T11:19:31.351415 #5021]  INFO -- : Started GET "/assets/frontend/2.jpg" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.354148 #5021]  INFO -- : Started GET "/assets/frontend/p1.jpg" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.356128 #5021]  INFO -- : Started GET "/assets/frontend/4.jpg" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.395480 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.402361 #5021]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T11:19:31.406091 #5021] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.407434 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.407721 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.407995 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T11:19:31.408959 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.410192 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.4ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.411189 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.4ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.412120 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.3ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.412459 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.2ms)
+I, [2016-01-20T11:19:31.414504 #5021]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T11:19:31.415968 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.416995 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (2.2ms)
+I, [2016-01-20T11:19:31.417226 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T11:19:31.417569 #5021]  INFO -- : Completed 200 OK in 15ms (Views: 8.4ms | ActiveRecord: 3.0ms)
+I, [2016-01-20T11:19:31.418809 #5021]  INFO -- : Started GET "/assets/frontend/Drawing.png" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.464192 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.466515 #5021]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T11:19:31.470405 #5021] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.471487 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.471735 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.471934 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T11:19:31.472725 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.4ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.474018 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.475264 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.476416 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.476733 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.4ms)
+I, [2016-01-20T11:19:31.478463 #5021]  INFO -- :   Rendered layouts/_header.html.erb (0.8ms)
+D, [2016-01-20T11:19:31.479705 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.481388 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (2.7ms)
+I, [2016-01-20T11:19:31.481777 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.482200 #5021]  INFO -- : Completed 200 OK in 15ms (Views: 8.5ms | ActiveRecord: 3.2ms)
+I, [2016-01-20T11:19:31.526240 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.528198 #5021]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T11:19:31.531437 #5021] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.533009 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.533315 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.533544 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T11:19:31.534477 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.535679 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.4ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.536730 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.4ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.538026 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.538343 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.6ms)
+I, [2016-01-20T11:19:31.539867 #5021]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+D, [2016-01-20T11:19:31.541054 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.5ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.542038 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (1.9ms)
+I, [2016-01-20T11:19:31.542293 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T11:19:31.542615 #5021]  INFO -- : Completed 200 OK in 14ms (Views: 8.0ms | ActiveRecord: 3.0ms)
+I, [2016-01-20T11:19:31.587469 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.589346 #5021]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T11:19:31.591954 #5021] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.593163 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.593481 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.593750 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T11:19:31.594815 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.596232 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.597579 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.598932 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.599314 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.4ms)
+I, [2016-01-20T11:19:31.601138 #5021]  INFO -- :   Rendered layouts/_header.html.erb (0.8ms)
+D, [2016-01-20T11:19:31.602299 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.603238 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (1.9ms)
+I, [2016-01-20T11:19:31.603459 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T11:19:31.603785 #5021]  INFO -- : Completed 200 OK in 14ms (Views: 8.4ms | ActiveRecord: 3.4ms)
+I, [2016-01-20T11:19:31.651300 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.653745 #5021]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T11:19:31.657581 #5021] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.659374 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.659829 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.660263 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T11:19:31.661466 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.662670 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.5ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.663920 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.5ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.664888 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.665151 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (6.2ms)
+I, [2016-01-20T11:19:31.666533 #5021]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+D, [2016-01-20T11:19:31.667604 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.668429 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (1.7ms)
+I, [2016-01-20T11:19:31.668631 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.0ms)
+I, [2016-01-20T11:19:31.668932 #5021]  INFO -- : Completed 200 OK in 15ms (Views: 8.2ms | ActiveRecord: 3.1ms)
+I, [2016-01-20T11:19:31.712278 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.714715 #5021]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T11:19:31.718091 #5021] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.719317 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.719592 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.719833 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.0ms)
+D, [2016-01-20T11:19:31.720851 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.6ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.722295 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.7ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.723493 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.724528 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.5ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.724833 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.8ms)
+I, [2016-01-20T11:19:31.726565 #5021]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+D, [2016-01-20T11:19:31.728010 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.8ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.729118 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (2.3ms)
+I, [2016-01-20T11:19:31.729518 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.730042 #5021]  INFO -- : Completed 200 OK in 15ms (Views: 8.1ms | ActiveRecord: 3.9ms)
+I, [2016-01-20T11:19:31.785730 #5021]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.793491 #5021]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 11:19:31 +0530
+I, [2016-01-20T11:19:31.795018 #5021]  INFO -- : Processing by FrontendController#index as */*
+D, [2016-01-20T11:19:31.798731 #5021] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T11:19:31.800631 #5021]  INFO -- :   Rendered frontend/_banner.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.800968 #5021]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.801210 #5021]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.1ms)
+D, [2016-01-20T11:19:31.802324 #5021] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.7ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T11:19:31.803737 #5021] DEBUG -- :   [1m[36mAdmin::Event Load (0.6ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T11:19:31.804866 #5021] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T11:19:31.805875 #5021] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.4ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T11:19:31.806140 #5021]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (5.9ms)
+I, [2016-01-20T11:19:31.807783 #5021]  INFO -- :   Rendered layouts/_header.html.erb (0.8ms)
+D, [2016-01-20T11:19:31.808948 #5021] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.6ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T11:19:31.810059 #5021]  INFO -- :   Rendered layouts/_footer.html.erb (2.0ms)
+I, [2016-01-20T11:19:31.810353 #5021]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.1ms)
+I, [2016-01-20T11:19:31.810693 #5021]  INFO -- : Completed 200 OK in 15ms (Views: 8.3ms | ActiveRecord: 3.6ms)
+I, [2016-01-20T12:04:58.554982 #14160]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 12:04:58 +0530
+I, [2016-01-20T12:04:58.926026 #14160]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T12:04:58.958211 #14160] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T12:04:58.966679 #14160]  INFO -- :   Rendered frontend/_banner.html.erb (0.4ms)
+I, [2016-01-20T12:04:59.008964 #14160]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.6ms)
+I, [2016-01-20T12:04:59.010598 #14160]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.8ms)
+D, [2016-01-20T12:04:59.012323 #14160] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (1.0ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T12:04:59.017551 #14160] DEBUG -- :   [1m[36mAdmin::Event Load (1.2ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T12:04:59.021055 #14160] DEBUG -- :   [1m[35mAdmin::Event Load (0.6ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T12:04:59.022349 #14160] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.7ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T12:04:59.024809 #14160]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (61.5ms)
+I, [2016-01-20T12:04:59.721962 #14160]  INFO -- :   Rendered layouts/_header.html.erb (1.7ms)
+D, [2016-01-20T12:04:59.725166 #14160] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.8ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T12:04:59.728923 #14160]  INFO -- :   Rendered layouts/_footer.html.erb (6.3ms)
+I, [2016-01-20T12:04:59.730053 #14160]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.5ms)
+I, [2016-01-20T12:04:59.730511 #14160]  INFO -- : Completed 200 OK in 804ms (Views: 759.5ms | ActiveRecord: 22.1ms)
+I, [2016-01-20T12:04:59.753672 #14160]  INFO -- : Started GET "/assets/frontend/Drawing.png" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.762626 #14160]  INFO -- : Started GET "/assets/application.js" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.772515 #14160]  INFO -- : Started GET "/assets/application.css" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.789174 #14160]  INFO -- : Started GET "/assets/frontend/1.jpg" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.806318 #14160]  INFO -- : Started GET "/assets/frontend/2.jpg" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.809574 #14160]  INFO -- : Started GET "/assets/frontend/p1.jpg" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.812271 #14160]  INFO -- : Started GET "/assets/frontend/4.jpg" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.815160 #14160]  INFO -- : Started GET "/assets/frontend/5.jpg" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.817757 #14160]  INFO -- : Started GET "/assets/frontend/3.jpg" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.919468 #14160]  INFO -- : Started GET "/assets/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.931492 #14160]  INFO -- : Started GET "/assets/frontend/vect.png" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.935133 #14160]  INFO -- : Started GET "/assets/frontend/logo.ico" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.938796 #14160]  INFO -- : Started GET "/assets/frontend/shivji_banner.jpg" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.945750 #14160]  INFO -- : Started GET "/assets/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.950412 #14160]  INFO -- : Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.956435 #14160]  INFO -- : Started GET "/assets/xkvoNo9fC8O2RDydKj12b_k_vArhqVIZ0nv9q090hN8.woff2" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:04:59.969114 #14160]  INFO -- : Started GET "/assets/frontend/top_move.png" for 127.0.0.1 at 2016-01-20 12:04:59 +0530
+I, [2016-01-20T12:05:00.017978 #14160]  INFO -- : Started GET "/assets/frontend/1.png" for 127.0.0.1 at 2016-01-20 12:05:00 +0530
+I, [2016-01-20T12:05:12.772523 #14160]  INFO -- : Started GET "/login" for 127.0.0.1 at 2016-01-20 12:05:12 +0530
+I, [2016-01-20T12:05:12.777326 #14160]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2016-01-20T12:05:13.023507 #14160]  INFO -- :   Rendered devise/shared/_links.html.erb (2.0ms)
+I, [2016-01-20T12:05:13.024539 #14160]  INFO -- :   Rendered devise/shared/_footer.html.erb (0.3ms)
+I, [2016-01-20T12:05:13.025038 #14160]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/admin/empty (17.7ms)
+I, [2016-01-20T12:05:13.031260 #14160]  INFO -- : Completed 200 OK in 254ms (Views: 25.4ms | ActiveRecord: 196.1ms)
+I, [2016-01-20T12:05:13.046814 #14160]  INFO -- : Started GET "/assets/admin.js" for 127.0.0.1 at 2016-01-20 12:05:13 +0530
+I, [2016-01-20T12:05:13.055308 #14160]  INFO -- : Started GET "/assets/admin.css" for 127.0.0.1 at 2016-01-20 12:05:13 +0530
+I, [2016-01-20T17:41:27.251361 #10861]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 17:41:27 +0530
+I, [2016-01-20T17:41:27.828983 #10861]  INFO -- : Processing by FrontendController#index as HTML
+D, [2016-01-20T17:41:28.144457 #10861] DEBUG -- :   [1m[36m (47.5ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T17:41:28.153538 #10861]  INFO -- :   Rendered frontend/_banner.html.erb (0.3ms)
+I, [2016-01-20T17:41:28.154587 #10861]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.4ms)
+I, [2016-01-20T17:41:28.156389 #10861]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (1.1ms)
+D, [2016-01-20T17:41:28.214069 #10861] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (56.8ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T17:41:28.233683 #10861] DEBUG -- :   [1m[36mAdmin::Event Load (14.2ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T17:41:28.238705 #10861] DEBUG -- :   [1m[35mAdmin::Event Load (0.9ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T17:41:28.241106 #10861] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (1.2ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T17:41:28.243309 #10861]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (93.1ms)
+I, [2016-01-20T17:41:28.943008 #10861]  INFO -- :   Rendered layouts/_header.html.erb (1.7ms)
+D, [2016-01-20T17:41:28.977381 #10861] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (32.2ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T17:41:28.981290 #10861]  INFO -- :   Rendered layouts/_footer.html.erb (37.6ms)
+I, [2016-01-20T17:41:28.982481 #10861]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.5ms)
+I, [2016-01-20T17:41:28.982926 #10861]  INFO -- : Completed 200 OK in 1154ms (Views: 725.2ms | ActiveRecord: 389.6ms)
+I, [2016-01-20T17:41:29.007575 #10861]  INFO -- : Started GET "/assets/application.css" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.074894 #10861]  INFO -- : Started GET "/assets/frontend/Drawing.png" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.078340 #10861]  INFO -- : Started GET "/assets/application.js" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.084948 #10861]  INFO -- : Started GET "/assets/frontend/1.jpg" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.119242 #10861]  INFO -- : Started GET "/assets/frontend/2.jpg" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.145628 #10861]  INFO -- : Started GET "/assets/frontend/3.jpg" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.157935 #10861]  INFO -- : Started GET "/assets/frontend/5.jpg" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.164529 #10861]  INFO -- : Started GET "/assets/frontend/4.jpg" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.167256 #10861]  INFO -- : Started GET "/assets/frontend/p1.jpg" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.286277 #10861]  INFO -- : Started GET "/assets/frontend/logo.ico" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.293053 #10861]  INFO -- : Started GET "/assets/frontend/vect1.png" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.301676 #10861]  INFO -- : Started GET "/assets/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.304452 #10861]  INFO -- : Started GET "/assets/frontend/header.jpg" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.340621 #10861]  INFO -- : Started GET "/assets/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.346425 #10861]  INFO -- : Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.383431 #10861]  INFO -- : Started GET "/assets/xkvoNo9fC8O2RDydKj12b_k_vArhqVIZ0nv9q090hN8.woff2" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:29.438787 #10861]  INFO -- : Started GET "/assets/frontend/top_move.png" for 127.0.0.1 at 2016-01-20 17:41:29 +0530
+I, [2016-01-20T17:41:30.554126 #10861]  INFO -- : Started GET "/assets/frontend/1.png" for 127.0.0.1 at 2016-01-20 17:41:30 +0530
+I, [2016-01-20T17:41:30.581539 #10861]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2016-01-20 17:41:30 +0530
+I, [2016-01-20T17:41:30.589129 #10861]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-01-20 17:41:30 +0530
+I, [2016-01-20T17:41:30.590643 #10861]  INFO -- : Processing by FrontendController#index as */*
+D, [2016-01-20T17:41:30.593786 #10861] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "admin_clients"[0m
+I, [2016-01-20T17:41:30.602933 #10861]  INFO -- :   Rendered frontend/_banner.html.erb (0.5ms)
+I, [2016-01-20T17:41:30.606300 #10861]  INFO -- :   Rendered frontend/_banner_middle.html.erb (0.4ms)
+I, [2016-01-20T17:41:30.609852 #10861]  INFO -- :   Rendered frontend/_banner_bottom.html.erb (0.8ms)
+D, [2016-01-20T17:41:30.610907 #10861] DEBUG -- :   [1m[35mAdmin::Welcomedatum Load (0.5ms)[0m  SELECT "admin_welcomedata".* FROM "admin_welcomedata"
+D, [2016-01-20T17:41:30.612096 #10861] DEBUG -- :   [1m[36mAdmin::Event Load (0.4ms)[0m  [1mSELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from >= ('2016-01-01')) LIMIT 3[0m
+D, [2016-01-20T17:41:30.612968 #10861] DEBUG -- :   [1m[35mAdmin::Event Load (0.4ms)[0m  SELECT  "admin_events".* FROM "admin_events" WHERE (event_date_from < ('2016-01-01')) LIMIT 3
+D, [2016-01-20T17:41:30.613780 #10861] DEBUG -- :   [1m[36mAdmin::Sharevideo Load (0.3ms)[0m  [1mSELECT "admin_sharevideos".* FROM "admin_sharevideos"[0m
+I, [2016-01-20T17:41:30.614023 #10861]  INFO -- :   Rendered frontend/index.html.erb within layouts/application (16.1ms)
+I, [2016-01-20T17:41:30.621786 #10861]  INFO -- :   Rendered layouts/_header.html.erb (1.6ms)
+D, [2016-01-20T17:41:30.627414 #10861] DEBUG -- :   [1m[35mAdmin::ContactInfo Load (0.7ms)[0m  SELECT "admin_contact_infos".* FROM "admin_contact_infos"
+I, [2016-01-20T17:41:30.628614 #10861]  INFO -- :   Rendered layouts/_footer.html.erb (3.6ms)
+I, [2016-01-20T17:41:30.632372 #10861]  INFO -- :   Rendered layouts/_scroll_btn.html.erb (0.5ms)
+I, [2016-01-20T17:41:30.632712 #10861]  INFO -- : Completed 200 OK in 42ms (Views: 35.9ms | ActiveRecord: 3.0ms)

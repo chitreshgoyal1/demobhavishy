@@ -1,0 +1,51 @@
+<!-- banner1 -->
+<div class="banner1">
+	<div class="container">
+	</div>
+</div>
+<!-- //banner1 -->
+<!-- single -->
+	<div class="single">
+		<div class="container">
+			<div class="col-md-8 sing-img-text">
+				<div class="sing-img-text1">
+					<div class="pull-right">
+						<%= link_to events_path do%>
+            				<i class='glyphicon glyphicon-backward'></i> Back
+            			<% end %>
+					</div>
+					<div class="categories">
+						<h3><strong><%= @event.title.humanize %></strong></h3>
+
+					</div>
+					<p class="est">
+						<%= @event.summery %>
+					</p>
+				</div>
+				<img src="<%= @event.eventpic.url(:custom) %>" alt=" " class="img-responsive" />
+			</div>
+			<div class="col-md-4 sing-img-text-left">
+				<div class="blog-right1">
+					
+					<div class="categories">
+						<h3>Categories / Filter Events</h3>
+						<ul>
+							<li>
+								<%= link_to "Show current events" , filter_events_path("current") %>
+							</li>
+							<li>
+								<%= link_to "Show all upcoming events" , filter_events_path("upcoming") %>
+							</li>
+							<li>
+								<%= link_to "Show all past events" , filter_events_path("past") %>
+							</li>
+							<li>
+								<%= link_to "Default all events" , events_path %>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //single -->
