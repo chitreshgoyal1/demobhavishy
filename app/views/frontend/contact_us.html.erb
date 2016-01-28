@@ -14,7 +14,7 @@
 			<p class="nihil"><%= admin_contact_info.name.humanize %></p>
 			<div class="contact-grid">
 				<div class="col-md-12 contact-left">
-					<%= admin_contact_info.embed_url.html_safe %>
+					<iframe src="<%= admin_contact_info.embed_url %>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 				
 				<!-- <div class="col-md-7 contact-right">

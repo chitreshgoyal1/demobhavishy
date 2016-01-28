@@ -39,8 +39,8 @@
                 <ul class="nav nav-second-level <%= is_active_controller('admin/welcomedata') || is_active_controller('admin/sharevideos') %>" >
                     <li class="<%= is_active_controller('admin/welcomedata') %>">
                             <a href="#">
-                                <!-- <i class="fa fa-user"></i>  -->
-                                <span class="nav-label">Welcome</span> 
+                                Welcome
+                                <!-- <span class="nav-label">Welcome</span>  -->
                                 <span class="fa arrow"></span>
                             </a>
                         <ul class="nav nav-third-level <%= is_active_controller('admin/welcomedata') %> ">
@@ -52,8 +52,8 @@
                     </li>
                     <li class="<%= is_active_controller('admin/sharevideos') %>">
                             <a href="#">
-                                <!-- <i class="fa fa-user"></i>  -->
-                                <span class="nav-label">Videos</span> 
+                                Videos
+                                <!-- <span class="nav-label">Videos</span>  -->
                                 <span class="fa arrow"></span>
                             </a>
                         <ul class="nav nav-third-level <%= is_active_controller('admin/sharevideos') %> ">
@@ -80,8 +80,7 @@
                     
                     <li class="<%= is_active_controller('admin/clients') %>">
                         <a href="#">
-                            <!-- <i class="fa fa-user"></i>  -->
-                            <span class="nav-label">Client Details</span> 
+                            Client Details
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-third-level <%= is_active_controller('admin/clients') %>">    
@@ -94,7 +93,7 @@
 
             <li class="<%= is_active_controller('admin/services') %>">
                 <a href="#">
-                    <i class="fa fa-align-center"></i> 
+                    <i class="fa fa-wrench"></i> 
                     <span class="nav-label">Services</span> 
                     <span class="fa arrow"></span>
                 </a>
@@ -122,7 +121,7 @@
 
             <li class="<%= is_active_controller('admin/galleries') %>">
                 <a href="#">
-                    <i class="fa fa-calendar"></i> 
+                    <i class="fa fa-picture-o"></i> 
                     <span class="nav-label">Gallery</span>
                     <span class="fa arrow"></span>
                 </a>
@@ -135,7 +134,7 @@
             </li>
 
             <li class="<%= is_active_controller('admin/contact_infos') %>">
-                <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">
+                <a href="#"><i class="fa fa-phone"></i> <span class="nav-label">
                 	Contact us</span><span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level <%= is_active_controller('admin/contact_infos')%>">
                     <li class="<%= is_active_controller_action('admin/contact_infos','index') %>"><%= link_to "List", admin_contact_infos_path %></li>
@@ -146,7 +145,11 @@
             
             
             <!-- <li>
-                <a href="#"><i class="fa fa-sitemap"></i> <span class="nav-label">Menu Levels </span><span class="fa arrow"></span></a>
+                    <a href="#">
+                        <i class="fa fa-sitemap"></i> 
+                        <span class="nav-label">Menu Levels </span>
+                        <span class="fa arrow"></span>
+                    </a>
                 <ul class="nav nav-second-level">
                     <li>
                         <a href="#">Third Level <span class="fa arrow"></span></a>

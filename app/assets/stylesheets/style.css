@@ -45,12 +45,12 @@ body a:hover{
 	text-align: center;
 	width:14%;
 	margin: 0 auto;
-	background: url("/assets/frontend/logo.ico") no-repeat center;
+	/*background: url("/assets/frontend/logo.ico") no-repeat center;*/
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 .logo a img {
-    width: 100%;
+    width: 75%;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: none;
